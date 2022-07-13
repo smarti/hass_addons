@@ -1,0 +1,25 @@
+---
+version: 1.0.0
+hassio_api: true
+slug: reverse_ssh_relay
+name: "Reverse SSH relay"
+description: "A reverse SSH relay"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+options:
+  remote_gateway_port: 8001
+  remote_address: 10.2.14.55
+  remote_port: 22
+  remote_user: reversetunnel
+  remote_password: reversetunnel
+schema:
+  remote_gateway_port: int
+  remote_address: str
+  remote_port: int
+  remote_user: str
+  remote_password: str

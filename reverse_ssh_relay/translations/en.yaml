@@ -1,0 +1,22 @@
+---
+configuration:
+  remote_gateway_port:
+    name: Remote gateway port
+    description: >-
+      Remote gateway port
+  remote_address:
+    name: Remote address
+    description: >-
+      Remote address
+  remote_port:
+    name: Remote port
+    description: >-
+      Remote port
+  remote_user:
+    name: Remote user
+    description: >-
+      Remote user
+  remote_password:
+    name: Remote password
+    description: >-
+      Remote password

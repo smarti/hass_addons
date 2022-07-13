@@ -11,6 +11,8 @@ arch:
   - amd64
   - i386
 init: false
+map:
+  - share
 options:
   remote_gateway_port: 8123
   remote_address: null

@@ -17,7 +17,4 @@ sed -i "s/%%REMOTEUSER%%/$REMOTEUSER/g" sshtunnel.sh
 sed -i "s/%%REMOTEADDRESS%%/$REMOTEADDRESS/g" sshtunnel.sh
 sed -i "s/%%REMOTEPASSWORD%%/$REMOTEPASSWORD/g" sshtunnel.sh
 
-./sshtunnel.sh
-
-#rc-update add sshtunnel.service default
-#rc-service sshtunnel.service start
+#./sshtunnel.sh

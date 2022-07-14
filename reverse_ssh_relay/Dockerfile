@@ -9,6 +9,6 @@ COPY data/run.sh /
 COPY data/sshtunnel.sh /
 
 # Setup access
-RUN chmod 774 /run.sh
+RUN chmod 770 /run.sh
 
 CMD [ "/run.sh" ]

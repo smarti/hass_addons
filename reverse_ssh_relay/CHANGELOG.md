@@ -2,6 +2,10 @@
 
 ## 1.0.3
 
+- Fixed permission denied error on sshtunnel.sh
+
+## 1.0.3
+
 - Fixed permission denied error on run.sh
 
 ## 1.0.2

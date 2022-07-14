@@ -12,6 +12,6 @@ do
       -o "StrictHostKeyChecking no" \
       -C -N
 
-    echo "SSH connection exited"
+    echo "SSH connection exited. Retrying in 30 seconds..."
     sleep 30
 done

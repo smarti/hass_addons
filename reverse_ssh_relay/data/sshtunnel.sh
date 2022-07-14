@@ -10,7 +10,7 @@ do
       -o "ConnectTimeout 15" \
       -o "ExitOnForwardFailure yes" \
       -o "StrictHostKeyChecking no" \
-      -C -N;
+      -C -N
 
     echo "SSH connection exited"
     sleep 30
